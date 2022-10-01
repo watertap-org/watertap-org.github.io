@@ -1,0 +1,5 @@
+remote_theme: minimal
+plugins:
+- jekyll-remote-theme
+- jekyll-seo-tag
+title: WaterTAP
