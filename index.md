@@ -15,7 +15,7 @@ WaterTAP is part of the National Alliance for Water Innovation (NAWI).
 Download installer and open on your desktop to install the software.
 
 {% assign ver = "-" -%}
-{% assign rel_by_ver = site.data.releases | sort: "version" -%}
+{% assign rel_by_ver = site.data.releases | sort: "key" -%}
 {% for release in rel_by_ver %}
 {% if ver != release.version -%}
 ### Version {{ release.version }}
@@ -26,9 +26,9 @@ Download installer and open on your desktop to install the software.
 
 ## More information
 
-* [Github](https://github.com/watertap-org/watertap)
+* [WaterTAP Github site](https://github.com/watertap-org/watertap)
 * [WaterTAP page on NAWI website](https://www.nawihub.org/knowledge/watertap/)
-* [NAWI website](https://www.nawihub.org/)
+* [NAWI website home](https://www.nawihub.org/)
 
 ## Acknowledgements
 
