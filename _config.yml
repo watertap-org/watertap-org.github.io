@@ -2,4 +2,4 @@ remote_theme: slate
 plugins:
 - jekyll-remote-theme
 - jekyll-seo-tag
-title: WaterTAP
+title: WaterTAP GUI

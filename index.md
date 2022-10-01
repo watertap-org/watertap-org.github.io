@@ -26,7 +26,7 @@ Download installer and open on your desktop to install the software.
 
 ## More information
 
-* [WaterTAP Github site](https://github.com/watertap-org/watertap)
+* [WaterTAP on Github](https://github.com/watertap-org/)
 * [WaterTAP page on NAWI website](https://www.nawihub.org/knowledge/watertap/)
 * [NAWI website home](https://www.nawihub.org/)
 
