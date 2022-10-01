@@ -20,7 +20,8 @@ Open the installation file to install the software.
 {% for release in rel_by_ver -%}
 {% if ver != release.version -%}
 <span class="wt-ver">Version {{ release.version }}</span><span class="wt-date">{{ release.date }}</span>
-{% endif -%}<a href="{{ release.url }}" class="wt-link">{{ release.os }}</a>{% assign ver = release.version -%}
+{% endif %}
+<a href="{{ release.url }}" class="wt-link">{{ release.os }}</a>{% assign ver = release.version -%}
 {% endfor %}
 
 ## More information
