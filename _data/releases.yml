@@ -2,16 +2,16 @@
   version: 0.6.0rc4
   key: 0.6.0rc4_win
   os: Windows
-  date: 2022-10-01
+  date: 2022-09-30
 
 - url: https://github.com/watertap-org/watertap/releases/download/0.6.0rc0/WaterTAP-UI-0.1.0-arm64.dmg
   version: 0.6.0rc4
   os: MacOSX ARM64
   key: 0.6.0rc4_macarm
-  date: 2022-10-01
+  date: 2022-09-30
 
 - url: "#"
   version: 0.6.0rc4
   os: Linux (TBD)
   key: 0.6.0rc4_linux
-  date: 2022-10-01
+  date: 2022-09-30
