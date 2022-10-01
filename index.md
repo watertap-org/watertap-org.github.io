@@ -20,7 +20,8 @@ Download installer and open on your desktop to install the software.
 
 {% assign ver = "-" -%}
 {% assign rel_by_ver = site.data.releases | sort: "version" -%}
-{% for release in rel_by_ver -%}
+{% for release in rel_by_ver %}
+ver = {{ ver }}, release.version = {{ release.version }}
 {% if ver != release.version -%}
 ## Version {{ release.version }}
 {% endif %}
