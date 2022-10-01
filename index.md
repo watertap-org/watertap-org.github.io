@@ -4,13 +4,6 @@ modified: 1 October 2022
 <link rel="stylesheet" href="style.css">
 <span style="font-size: 80%; color: grey;">Last modified on {{ page.modified }}</span>
 
-<img alt="NAWI logo" src="nawi-transp.webp" height="50px">&nbsp;
-<img alt="WaterTAP logo" src="watertap-transp.webp" height="50px">
-
-WaterTAP is part of the National Alliance for Water Innovation (NAWI).
-
-## Downloads
-
 Choose a version (latest first) and click on the link correspnding to your operating system.
 This will download an installation file.
 Open the installation file to install the software.
@@ -26,9 +19,9 @@ Open the installation file to install the software.
 
 ## More information
 
+* WaterTAP is part of the [National Alliance for Water Innovation (NAWI)](https://www.nawihub.org).
 * [WaterTAP on Github](https://github.com/watertap-org/)
 * [WaterTAP page on NAWI website](https://www.nawihub.org/knowledge/watertap/)
-* [NAWI website home](https://www.nawihub.org/)
 
 ## Acknowledgements
 
