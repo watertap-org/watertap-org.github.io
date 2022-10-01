@@ -26,7 +26,7 @@ ver = {{ ver }}, release.version = {{ release.version }}
 ## Version {{ release.version }}
 {% endif %}
 * <a href="{{ release.url }}">{{ release.os }}</a>
-{% assign ver = "{{ release.version }}" -%}
+{% assign ver = release.version -%}
 {% endfor %}
 
 # More information
