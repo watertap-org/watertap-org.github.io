@@ -3,11 +3,14 @@ Watertap page styles
 */
 .wt-link {
 	text-decoration: none;
-	padding: 8px;
+	padding: 4px 8px;
 	margin-left: 1em;
-	background-color: #00bfe3;
-	border-radius: 3px;
-	color: white;
+	border-style: solid;
+	border-radius: 3px;	
+	border-color: #00bfe3;
+	border-width: thin;
+	color: #009fc3;
+	font-weight: 800;
 }
 .wt-ver {
 	font-size: 110%;
@@ -18,3 +21,5 @@ Watertap page styles
 	opacity: 0.5;
 	margin-left: 1em;
 }
+/* get rid of "view my github profile" bs */
+.view { display: none }
