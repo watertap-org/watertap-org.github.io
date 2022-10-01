@@ -1,5 +1,4 @@
 ---
-layout: default
 modified: 1 October 2022
 ---
 
@@ -7,12 +6,11 @@ modified: 1 October 2022
 
 # Overview
 
+<img alt="NAWI logo" src="nawi-transp.webp" height="50px">&nbsp;
+<img alt="WaterTAP logo" src="watertap-transp.webp" height="50px">
+
 Welcome to the WaterTAP graphical user interface (GUI) software download page.
-
 WaterTAP is part of the National Alliance for Water Innovation (NAWI).
-
-<img alt="NAWI logo" src="nawi-transp.webp" width="150px">&nbsp;
-<img alt="WaterTAP logo" src="watertap-transp.webp" width="150px">
 
 # Downloads
 
@@ -21,7 +19,6 @@ Download installer and open on your desktop to install the software.
 {% assign ver = "-" -%}
 {% assign rel_by_ver = site.data.releases | sort: "version" -%}
 {% for release in rel_by_ver %}
-ver = {{ ver }}, release.version = {{ release.version }}
 {% if ver != release.version -%}
 ## Version {{ release.version }}
 {% endif %}
