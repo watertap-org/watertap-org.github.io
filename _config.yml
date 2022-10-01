@@ -3,3 +3,6 @@ plugins:
 - jekyll-remote-theme
 - jekyll-seo-tag
 title: WaterTAP GUI Downloads
+show_downloads: false
+logo: watertap-transp.webp
+
