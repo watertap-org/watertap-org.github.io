@@ -1,7 +1,7 @@
 ---
 modified: 1 October 2022
 ---
-
+<link rel="stylesheet" href="style.css">
 <span style="font-size: 80%; color: grey;">Last modified on {{ page.modified }}</span>
 
 <img alt="NAWI logo" src="nawi-transp.webp" height="50px">&nbsp;
@@ -12,16 +12,16 @@ WaterTAP is part of the National Alliance for Water Innovation (NAWI).
 
 ## Downloads
 
-Download installer and open on your desktop to install the software.
+Choose a version (latest first) and click on the link correspnding to your operating system.
+This will download an installation file.
+Open the installation file to install the software.
 
 {% assign ver = "-" -%}
-{% assign rel_by_ver = site.data.releases | sort: "key" -%}
-{% for release in rel_by_ver %}
+{% assign rel_by_ver = site.data.releases | sort: "key" | reverse -%}
+{% for release in rel_by_ver -%}
 {% if ver != release.version -%}
-### Version {{ release.version }}
-{% endif %}
-* <a href="{{ release.url }}">{{ release.os }}</a>
-{% assign ver = release.version -%}
+<span class="wt-ver">Version {{ release.version }}</span><span class="wt-date">{{ release.date }}</span>
+{% endif -%}<a href="{{ release.url }}" class="wt-link">{{ release.os }}</a>{% assign ver = release.version -%}
 {% endfor %}
 
 ## More information

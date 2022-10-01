@@ -1,0 +1,20 @@
+/*
+Watertap page styles
+*/
+.wt-link {
+	text-decoration: none;
+	padding: 8px;
+	margin-left: 1em;
+	background-color: #00bfe3;
+	border-radius: 3px;
+	color: white;
+}
+.wt-ver {
+	font-size: 110%;
+	font-weight: 700;
+}
+.wt-date {
+	font-size: 90%;
+	opacity: 0.5;
+	margin-left: 1em;
+}
