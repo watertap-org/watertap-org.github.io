@@ -10,8 +10,8 @@
   key: 0.6.0rc0_macarm
   date: 2022-09-30
 
-- url: "#"
+- url: https://github.com/watertap-org/watertap/releases/download/0.6.0rc0/WaterTAP-UI_0.1.0_amd64.deb
   version: 0.6.0rc0
-  os: Linux (TBD)
+  os: Linux
   key: 0.6.0rc0_linux
   date: 2022-09-30
