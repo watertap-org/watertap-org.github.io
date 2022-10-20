@@ -1,17 +1,17 @@
-- url: https://github.com/watertap-org/watertap/releases/download/0.6.0rc0/WaterTAP-UI-0.1.0-win64.exe
+- url: https://github.com/watertap-org/watertap/releases/download/0.6.0/WaterTAP-UI_0.6.0_win64.exe
   version: 0.6.0rc0
   key: 0.6.0rc0_win
   os: Windows
   date: 2022-09-30
 
-- url: https://github.com/watertap-org/watertap/releases/download/0.6.0rc0/WaterTAP-UI-0.1.0-arm64.dmg
+- url: https://github.com/watertap-org/watertap/releases/download/0.6.0/WaterTAP-UI_0.6.0_arm64.dmg
   version: 0.6.0rc0
   os: MacOSX ARM64
   key: 0.6.0rc0_macarm
   date: 2022-09-30
 
-- url: https://github.com/watertap-org/watertap/releases/download/0.6.0rc0/WaterTAP-UI_0.1.0_amd64.deb
+- url: https://github.com/watertap-org/watertap/releases/download/0.6.0/WaterTAP-UI_0.6.0_amd64.deb
   version: 0.6.0rc0
-  os: Linux
+  os: Linux (Ubuntu 20.04)
   key: 0.6.0rc0_linux
   date: 2022-09-30
