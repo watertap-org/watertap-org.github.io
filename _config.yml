@@ -1,9 +1,14 @@
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme
-- jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-seo-tag
 title: WaterTAP GUI Downloads
 show_downloads: false
 logo: watertap-transp.webp
 description: WaterTAP GUI software download page
+defaults:
+    - scope:
+        path: "assets/img"
+      values:
+        image: true
 
