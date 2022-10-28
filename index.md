@@ -4,7 +4,8 @@ modified: 1 October 2022
 <link rel="stylesheet" href="style.css">
 <span style="font-size: 80%; color: grey;">Last modified on {{ page.modified }}</span>
 
-Contents:
+## Contents
+
   * <a href="#download">Download</a>
   * <a href="#windows-warnings">Windows warnings</a>
   * <a href="#about-watertap">About WaterTAP</a>
@@ -34,11 +35,11 @@ Due to security procedures by Microsoft, you may see warnings and need to take a
 
 The most common form of this warning comes from Windows Protector. You will see an initial screen that looks like this (red annotation added):
 
-<img width="400px" src="assets/img/windows-protect-1.webp" alt="Windows Protector window 1">
+<img width="300px" src="assets/img/windows-protect-1.webp" alt="Windows Protector window 1">
 
 As the annotation indicates, you should click on the "More info" link. This will result in a second screen that looks like this:
 
-<img width="400px" src="assets/img/windows-protect-2.webp" alt="Windows Protector window 2">
+<img width="300px" src="assets/img/windows-protect-2.webp" alt="Windows Protector window 2">
 
 In this screen, click on the "Run anyway" button to begin the installation process.
 
@@ -47,15 +48,15 @@ In this screen, click on the "Run anyway" button to begin the installation proce
 If you use the Microsoft Edge browser, you may encounter a second form of this process.
 When you perform the download, the browser will show a message that looks like this:
 
-<img width="400px" src="assets/img/windows-edge-1.webp" alt="Windows Edge browser 1">
+<img width="300px" src="assets/img/windows-edge-1.webp" alt="Windows Edge browser 1">
 
 Select the three dots next to this message and select "Keep", as indicated in the following screenshot (red annotation added):
 
-<img width="400px" src="assets/img/windows-edge-2.webp" alt="Windows Edge browser 2">
+<img width="300px" src="assets/img/windows-edge-2.webp" alt="Windows Edge browser 2">
 
 This will bring up another window, where you need to first select "Show more" and then select the "Keep anyway" option that appears, as indicated in this screenshot (red annotation added):
 
-<img width="400px" src="assets/img/windows-edge-3.webp" alt="Windows Edge browser 3">
+<img width="300px" src="assets/img/windows-edge-3.webp" alt="Windows Edge browser 3">
 
 
 ## About WaterTAP
