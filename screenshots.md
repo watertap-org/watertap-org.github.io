@@ -1,8 +1,8 @@
 # Screenshots
 
-<a href="{% link index.md %}">&larr; Back to main page</a>
-
 This page shows some screenshots of the WaterTAP GUI.
+
+<a href="{% link index.md %}">&larr; Back to main page</a>
 
 ## Version: 0.6.0
 
