@@ -1,3 +1,5 @@
+<a href="{% link index.md %}">&larr; Back to main page</a>
+
 # Screenshots
 
 This page shows some screenshots of the WaterTAP GUI.
