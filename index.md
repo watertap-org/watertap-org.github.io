@@ -6,11 +6,18 @@ modified: 1 October 2022
 
 ## Contents
 
+  * <a href="#about-watertap">About WaterTAP</a>
   * <a href="#download">Download</a>
   * <a href="#screenshots">Screenshots</a>
   * <a href="#windows-warnings">Windows warnings</a>
-  * <a href="#about-watertap">About WaterTAP</a>
   * <a href="#acknowlegements">Acknowledgements</a>
+
+## About WaterTAP
+
+WaterTAP is part of the [National Alliance for Water Innovation (NAWI)](https://www.nawihub.org).
+
+* [WaterTAP on Github](https://github.com/watertap-org/)
+* [WaterTAP page on NAWI website](https://www.nawihub.org/knowledge/watertap/)
 
 ## Download
 
@@ -75,13 +82,6 @@ Select the three dots next to this message and select "Keep", as indicated in th
 This will bring up another window, where you need to first select "Show more" and then select the "Keep anyway" option that appears, as indicated in this screenshot (red annotation added):
 
 <img width="300px" src="assets/img/windows-edge-3.webp" alt="Windows Edge browser 3">
-
-
-## About WaterTAP
-
-* WaterTAP is part of the [National Alliance for Water Innovation (NAWI)](https://www.nawihub.org).
-* [WaterTAP on Github](https://github.com/watertap-org/)
-* [WaterTAP page on NAWI website](https://www.nawihub.org/knowledge/watertap/)
 
 ## Acknowledgements
 
