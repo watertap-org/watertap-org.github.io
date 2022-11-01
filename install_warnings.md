@@ -1,6 +1,6 @@
-<a href="{% link index.md %}">&larr; Back to main page</a>
-
 # Install warnings
+
+<a href="{% link index.md %}">&larr; Back to main page</a>
 
 The Windows operating system issues some security warnings when downloading the software.
 Below are instructions, with screenshots, for keeping the download despite these warnings.
