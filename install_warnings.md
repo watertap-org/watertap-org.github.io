@@ -1,3 +1,5 @@
+<a href="{% link index.md %}">&larr; Back to main page</a>
+
 # Install warnings
 
 The Windows operating system issues some security warnings when downloading the software.
