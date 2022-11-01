@@ -9,7 +9,7 @@ modified: 1 November 2022
   * <a href="#about-watertap">About WaterTAP</a>
   * <a href="#download">Download</a>
   * <a href="#screenshots">Screenshots</a>
-  * <a href="#windows-warnings">Windows warnings</a>
+  * <a href="{% link install_warnings.md %}">Windows warnings</a>
   * <a href="#acknowlegements">Acknowledgements</a>
 
 ## About WaterTAP
