@@ -24,12 +24,11 @@ WaterTAP is part of the [National Alliance for Water Innovation (NAWI)](https://
 Choose a version (latest first) and click on the link corresponding to your operating system.
 This will download an installation file.
 Open the installation file to install the software.
-
 {% assign ver = "-" -%}
 {% assign rel_by_ver = site.data.releases | sort: "key" | reverse -%}
 {% for release in rel_by_ver -%}
 {% if ver != release.version -%}
-<span class="wt-ver">Version {{ release.version }}</span><span class="wt-date">{{ release.date }}</span>
+<br><br><span class="wt-ver">Version {{ release.version }}</span><span class="wt-date">{{ release.date }}</span>
 {% endif %}
 <a href="{{ release.url }}" class="wt-link">{{ release.os }}</a>{% assign ver = release.version -%}
 {% endfor %}
