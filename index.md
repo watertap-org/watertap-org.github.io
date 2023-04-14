@@ -7,6 +7,7 @@ modified: 1 November 2022
 ## Contents
 
   * <a href="#about-watertap">About WaterTAP</a>
+  * <a href="{% link roadmap.md %}">Roadmap &rarr;</a>
   * <a href="#download">Download</a>
   * <a href="{% link screenshots.md %}">Screenshots &rarr;</a>
   * <a href="{% link install_warnings.md %}">Windows install warnings &rarr;</a>
