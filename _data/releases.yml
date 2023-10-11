@@ -1,19 +1,19 @@
 - url: https://github.com/watertap-org/watertap/releases/download/0.10.0/WaterTAP-UI_23.10.06_win64.exe
   version: 0.10.0
-  key: 0.10.0_win
+  key: 23.10.06_win
   os: Windows
   date: 2023-10-06
 
 - url: https://github.com/watertap-org/watertap/releases/download/0.10.0/WaterTAP-UI-23.10.6-arm64.dmg
   version: 0.10.0
   os: MacOSX ARM64
-  key: 0.10.0_macarm
+  key: 23.10.06_macarm
   date: 2023-10-06
 
 - url: https://github.com/watertap-org/watertap/releases/download/0.10.0/WaterTAP-UI_23.10.06_amd64.deb
   version: 0.10.0
   os: Linux (Ubuntu 20.04)
-  key: 0.10.0_linux
+  key: 23.10.06_linux
   date: 2023-10-06
   
 - url: https://github.com/watertap-org/watertap/releases/download/0.9.0/WaterTAP-UI-0.9.0-win64.exe
