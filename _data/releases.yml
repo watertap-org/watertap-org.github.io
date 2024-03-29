@@ -1,3 +1,15 @@
+- url: https://github.com/watertap-org/watertap/releases/download/0.12.0/WaterTAP-UI-24.03.29-win64.exe
+  version: 0.12.0
+  key: 24.03.29_win
+  os: Windows
+  date: 2024-03-29
+
+- url: https://github.com/watertap-org/watertap/releases/download/0.12.0/WaterTAP-UI-24.03.29-arm64.dmg
+  version: 0.12.0
+  os: MacOSX ARM64
+  key: 24.03.29_macarm
+  date: 2024-03-29
+
 - url: https://github.com/watertap-org/watertap/releases/download/0.11.0/WaterTAP-UI_24.01.26_win64.exe
   version: 0.11.0
   key: 24.01.26_win
