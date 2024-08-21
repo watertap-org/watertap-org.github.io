@@ -1,0 +1,9 @@
+/*
+ Custom CSS
+ */
+div.row a, div.row button {
+    margin: 4px 6px;
+}
+div.row a button {
+    width: 100%;
+}
