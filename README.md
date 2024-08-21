@@ -3,6 +3,16 @@
 
 This is the source for the WaterTAP downloads website at https://watertap-org.github.io/
 
+# NEW
+
+The site is being (experimentally!) deployed from the /docs directory.
+
+See the README.md in that directory for how to add a new link and deploy.
+Any questions, ask Dan Gunter as this is all his fault.
+
+------------------------------------
+# OLD INFO
+
 The website is built with Jekyll and Github Pages.
 
 # Internal
