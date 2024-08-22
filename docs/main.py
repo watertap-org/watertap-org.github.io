@@ -55,24 +55,29 @@ download_version_tag = {
 ver_flex_cls = "box col-xs-12 col-sm-12 col-md-12 col-lg-2"
 a_flex_cls = "col-xs-12 col-sm-6 col-md-4 col-lg-3"
 btn_flex_cls = "box outline"
+btn_flex_high_cls = "box outline"
 
-download_links = [
-    Div(
-        Button(f"Version {key}", cls=ver_flex_cls),
+download_links = []
+for key, value in download_version_tag.items():
+    btn_cls = btn_flex_cls
+    ver_cls = ver_flex_cls
+    if key == "1.0.0":
+        btn_cls += " contrast"
+        ver_cls += " contrast"
+    download_links.append(Div(
+        Button(f"Version {key}", cls=ver_cls),
         A(
-            Button(win, cls=btn_flex_cls),
+            Button(win, cls=btn_cls),
             cls=a_flex_cls,
             href=f"{download_url}/{value[win]}",
         ),
         A(
-            Button(mac, cls=btn_flex_cls),
+            Button(mac, cls=btn_cls),
             cls=a_flex_cls,
             href=f"{download_url}/{value[mac]}",
         ),
         cls="row",
-    )
-    for key, value in download_version_tag.items()
-]
+    ))
 
 
 @rt("/")
