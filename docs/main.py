@@ -19,7 +19,6 @@ def read_markdown(name):
 
 intro = read_markdown("intro")
 download = read_markdown("download")
-markdown_content = intro + download
 download_url = "https://github.com/watertap-org/watertap-ui/releases/download"
 funding_ack = (
     "WaterTAP is funded by the US Department of Energy, Office of Energy "
@@ -80,6 +79,8 @@ for key, value in download_version_tag.items():
     ))
 
 
+screenshots = [Img(src=f"wt{i}.png", width="800px") for i in range(1, 4)]
+
 @rt("/")
 def get(req):
     return Body(
@@ -88,7 +89,9 @@ def get(req):
             H1("Get Started with the WaterTAP UI", style="display: inline;"),
         ),
         Main(
-            Div(markdown_content, cls="marked"),
+            Div(intro, cls="marked"),
+            Card(Grid(*screenshots), header=Div(H3("Screenshots"), P("Input, Output, and Comparison screens"))),
+            Div(download, cls="marked"),
             Div(*download_links),
         ),
         Footer(
