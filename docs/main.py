@@ -39,6 +39,10 @@ win, mac = "Windows", "Mac OSX ARM64"
 # Download links   #
 ####################
 download_version_tag = {
+    "1.1.0": {
+        win: "24.10.11/WaterTAP-UI_24.10.11_win64.exe",
+        mac: "24.10.11/WaterTAP-UI-24.10.11-arm64.dmg",
+    },
     "1.0.0": {
         win: "24.08.13/WaterTAP-UI_24.08.15_win64.exe",
         mac: "24.08.13/WaterTAP-UI-24.8.15-arm64.dmg",
